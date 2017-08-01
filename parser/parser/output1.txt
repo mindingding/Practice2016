@@ -1,0 +1,34 @@
+    function: gcd() return type: int 
+        scalar: u type: int
+        scalar: v type: int
+        Compound
+            If
+                Op: ==
+                    Id: v
+                    const: 0
+                Return
+                    Id: u
+                Return
+                    Call gcd
+                        Id: v
+                        Op: -
+                            Id: u
+                            Op: *
+                                Op: /
+                                    Id: u
+                                    Id: v
+                                Id: v
+    function: main() return type: void 
+        Compound
+            scalar: x type: int
+            scalar: y type: int
+            assign: 
+                Id: x
+                Call input
+            assign: 
+                Id: y
+                Call input
+            Call output
+                Call gcd
+                    Id: x
+                    Id: y

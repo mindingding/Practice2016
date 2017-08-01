@@ -1,0 +1,122 @@
+﻿Build started 2017-04-01 오후 5:59:41.
+     1>Project "c:\Users\민지\documents\visual studio 2013\Projects\minji\minji\minji.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt mi.c
+         mi.c
+     1>c:\users\민지\documents\visual studio 2013\projects\minji\minji\mi.c(16): error C3872: '0xa0': this character is not allowed in an identifier
+     1>c:\users\민지\documents\visual studio 2013\projects\minji\minji\mi.c(16): error C2016: C requires that a struct or union has at least one member
+     1>c:\users\민지\documents\visual studio 2013\projects\minji\minji\mi.c(16): error C2061: syntax error : identifier 'int number'
+     1>c:\users\민지\documents\visual studio 2013\projects\minji\minji\mi.c(17): error C3872: '0xa0': this character is not allowed in an identifier
+     1>c:\users\민지\documents\visual studio 2013\projects\minji\minji\mi.c(17): error C2061: syntax error : identifier 'char sym'
+     1>c:\users\민지\documents\visual studio 2013\projects\minji\minji\mi.c(17): error C2059: syntax error : ';'
+     1>c:\users\민지\documents\visual studio 2013\projects\minji\minji\mi.c(17): error C3409: empty attribute block is not allowed
+     1>c:\users\민지\documents\visual studio 2013\projects\minji\minji\mi.c(17): error C2143: syntax error : missing ']' before 'constant'
+     1>c:\users\민지\documents\visual studio 2013\projects\minji\minji\mi.c(18): error C2054: expected '(' to follow '    '
+     1>c:\users\민지\documents\visual studio 2013\projects\minji\minji\mi.c(19): error C3872: '0xa0': this character is not allowed in an identifier
+     1>c:\users\민지\documents\visual studio 2013\projects\minji\minji\mi.c(19): error C2016: C requires that a struct or union has at least one member
+     1>c:\users\민지\documents\visual studio 2013\projects\minji\minji\mi.c(19): error C2061: syntax error : identifier 'char id'
+     1>c:\users\민지\documents\visual studio 2013\projects\minji\minji\mi.c(20): error C3872: '0xa0': this character is not allowed in an identifier
+     1>c:\users\민지\documents\visual studio 2013\projects\minji\minji\mi.c(21): error C2059: syntax error : '}'
+     1>c:\users\민지\documents\visual studio 2013\projects\minji\minji\mi.c(21): error C3872: '0xa0': this character is not allowed in an identifier
+     1>c:\users\민지\documents\visual studio 2013\projects\minji\minji\mi.c(22): error C2143: syntax error : missing '{' before '}'
+     1>c:\users\민지\documents\visual studio 2013\projects\minji\minji\mi.c(22): error C2059: syntax error : '}'
+     1>c:\users\민지\documents\visual studio 2013\projects\minji\minji\mi.c(22): error C3872: '0xa0': this character is not allowed in an identifier
+     1>c:\users\민지\documents\visual studio 2013\projects\minji\minji\mi.c(24): error C3872: '0xa0': this character is not allowed in an identifier
+     1>c:\users\민지\documents\visual studio 2013\projects\minji\minji\mi.c(24): error C2143: syntax error : missing '{' before '*'
+     1>c:\users\민지\documents\visual studio 2013\projects\minji\minji\mi.c(25): warning C4133: 'initializing' : incompatible types - from 'char [5]' to 'int *'
+     1>c:\users\민지\documents\visual studio 2013\projects\minji\minji\mi.c(25): warning C4133: 'initializing' : incompatible types - from 'char [3]' to 'int *'
+     1>c:\users\민지\documents\visual studio 2013\projects\minji\minji\mi.c(25): warning C4133: 'initializing' : incompatible types - from 'char [4]' to 'int *'
+     1>c:\users\민지\documents\visual studio 2013\projects\minji\minji\mi.c(25): warning C4133: 'initializing' : incompatible types - from 'char [7]' to 'int *'
+     1>c:\users\민지\documents\visual studio 2013\projects\minji\minji\mi.c(25): warning C4133: 'initializing' : incompatible types - from 'char [6]' to 'int *'
+     1>c:\users\민지\documents\visual studio 2013\projects\minji\minji\mi.c(27): error C3872: '0xa0': this character is not allowed in an identifier
+     1>c:\users\민지\documents\visual studio 2013\projects\minji\minji\mi.c(28): error C3872: '0xa0': this character is not allowed in an identifier
+     1>c:\users\민지\documents\visual studio 2013\projects\minji\minji\mi.c(28): error C2065: 'swhile ' : undeclared identifier
+     1>c:\users\민지\documents\visual studio 2013\projects\minji\minji\mi.c(28): error C2099: initializer is not a constant
+     1>c:\users\민지\documents\visual studio 2013\projects\minji\minji\mi.c(31): error C3872: '0xa0': this character is not allowed in an identifier
+     1>c:\users\민지\documents\visual studio 2013\projects\minji\minji\mi.c(31): error C2061: syntax error : identifier ' '
+     1>c:\users\민지\documents\visual studio 2013\projects\minji\minji\mi.c(31): error C2059: syntax error : ';'
+     1>c:\users\민지\documents\visual studio 2013\projects\minji\minji\mi.c(31): error C2449: found '{' at file scope (missing function header?)
+     1>c:\users\민지\documents\visual studio 2013\projects\minji\minji\mi.c(32): error C3872: '0xa0': this character is not allowed in an identifier
+     1>c:\users\민지\documents\visual studio 2013\projects\minji\minji\mi.c(33): error C3872: '0xa0': this character is not allowed in an identifier
+     1>c:\users\민지\documents\visual studio 2013\projects\minji\minji\mi.c(34): error C2059: syntax error : '}'
+     1>c:\users\민지\documents\visual studio 2013\projects\minji\minji\mi.c(37): error C3872: '0xa0': this character is not allowed in an identifier
+     1>c:\users\민지\documents\visual studio 2013\projects\minji\minji\mi.c(38): error C3872: '0xa0': this character is not allowed in an identifier
+     1>c:\users\민지\documents\visual studio 2013\projects\minji\minji\mi.c(39): error C3872: '0xa0': this character is not allowed in an identifier
+     1>c:\users\민지\documents\visual studio 2013\projects\minji\minji\mi.c(43): error C3872: '0xa0': this character is not allowed in an identifier
+     1>c:\users\민지\documents\visual studio 2013\projects\minji\minji\mi.c(43): error C2061: syntax error : identifier ' '
+     1>c:\users\민지\documents\visual studio 2013\projects\minji\minji\mi.c(43): error C2059: syntax error : ';'
+     1>c:\users\민지\documents\visual studio 2013\projects\minji\minji\mi.c(43): error C2449: found '{' at file scope (missing function header?)
+     1>c:\users\민지\documents\visual studio 2013\projects\minji\minji\mi.c(44): error C3872: '0xa0': this character is not allowed in an identifier
+     1>c:\users\민지\documents\visual studio 2013\projects\minji\minji\mi.c(45): error C3872: '0xa0': this character is not allowed in an identifier
+     1>c:\users\민지\documents\visual studio 2013\projects\minji\minji\mi.c(47): error C3872: '0xa0': this character is not allowed in an identifier
+     1>c:\users\민지\documents\visual studio 2013\projects\minji\minji\mi.c(48): error C3872: '0xa0': this character is not allowed in an identifier
+     1>c:\users\민지\documents\visual studio 2013\projects\minji\minji\mi.c(50): error C3872: '0xa0': this character is not allowed in an identifier
+     1>c:\users\민지\documents\visual studio 2013\projects\minji\minji\mi.c(51): error C3872: '0xa0': this character is not allowed in an identifier
+     1>c:\users\민지\documents\visual studio 2013\projects\minji\minji\mi.c(53): error C3872: '0xa0': this character is not allowed in an identifier
+     1>c:\users\민지\documents\visual studio 2013\projects\minji\minji\mi.c(55): error C3872: '0xa0': this character is not allowed in an identifier
+     1>c:\users\민지\documents\visual studio 2013\projects\minji\minji\mi.c(57): error C3872: '0xa0': this character is not allowed in an identifier
+     1>c:\users\민지\documents\visual studio 2013\projects\minji\minji\mi.c(58): error C2059: syntax error : '}'
+     1>c:\users\민지\documents\visual studio 2013\projects\minji\minji\mi.c(60): error C3872: '0xa0': this character is not allowed in an identifier
+     1>c:\users\민지\documents\visual studio 2013\projects\minji\minji\mi.c(61): error C3872: '0xa0': this character is not allowed in an identifier
+     1>c:\users\민지\documents\visual studio 2013\projects\minji\minji\mi.c(62): error C3872: '0xa0': this character is not allowed in an identifier
+     1>c:\users\민지\documents\visual studio 2013\projects\minji\minji\mi.c(63): error C3872: '0xa0': this character is not allowed in an identifier
+     1>c:\users\민지\documents\visual studio 2013\projects\minji\minji\mi.c(64): error C3872: '0xa0': this character is not allowed in an identifier
+     1>c:\users\민지\documents\visual studio 2013\projects\minji\minji\mi.c(66): error C3872: '0xa0': this character is not allowed in an identifier
+     1>c:\users\민지\documents\visual studio 2013\projects\minji\minji\mi.c(67): error C3872: '0xa0': this character is not allowed in an identifier
+     1>c:\users\민지\documents\visual studio 2013\projects\minji\minji\mi.c(70): error C3872: '0xa0': this character is not allowed in an identifier
+     1>c:\users\민지\documents\visual studio 2013\projects\minji\minji\mi.c(71): error C3872: '0xa0': this character is not allowed in an identifier
+     1>c:\users\민지\documents\visual studio 2013\projects\minji\minji\mi.c(73): error C3872: '0xa0': this character is not allowed in an identifier
+     1>c:\users\민지\documents\visual studio 2013\projects\minji\minji\mi.c(76): error C3872: '0xa0': this character is not allowed in an identifier
+     1>c:\users\민지\documents\visual studio 2013\projects\minji\minji\mi.c(81): error C3872: '0xa0': this character is not allowed in an identifier
+     1>c:\users\민지\documents\visual studio 2013\projects\minji\minji\mi.c(82): error C3872: '0xa0': this character is not allowed in an identifier
+     1>c:\users\민지\documents\visual studio 2013\projects\minji\minji\mi.c(83): error C3872: '0xa0': this character is not allowed in an identifier
+     1>c:\users\민지\documents\visual studio 2013\projects\minji\minji\mi.c(84): error C3872: '0xa0': this character is not allowed in an identifier
+     1>c:\users\민지\documents\visual studio 2013\projects\minji\minji\mi.c(85): error C3872: '0xa0': this character is not allowed in an identifier
+     1>c:\users\민지\documents\visual studio 2013\projects\minji\minji\mi.c(86): error C3872: '0xa0': this character is not allowed in an identifier
+     1>c:\users\민지\documents\visual studio 2013\projects\minji\minji\mi.c(90): error C3872: '0xa0': this character is not allowed in an identifier
+     1>c:\users\민지\documents\visual studio 2013\projects\minji\minji\mi.c(97): error C3872: '0xa0': this character is not allowed in an identifier
+     1>c:\users\민지\documents\visual studio 2013\projects\minji\minji\mi.c(98): error C3872: '0xa0': this character is not allowed in an identifier
+     1>c:\users\민지\documents\visual studio 2013\projects\minji\minji\mi.c(99): error C3872: '0xa0': this character is not allowed in an identifier
+     1>c:\users\민지\documents\visual studio 2013\projects\minji\minji\mi.c(102): error C3872: '0xa0': this character is not allowed in an identifier
+     1>c:\users\민지\documents\visual studio 2013\projects\minji\minji\mi.c(104): error C3872: '0xa0': this character is not allowed in an identifier
+     1>c:\users\민지\documents\visual studio 2013\projects\minji\minji\mi.c(105): error C3872: '0xa0': this character is not allowed in an identifier
+     1>c:\users\민지\documents\visual studio 2013\projects\minji\minji\mi.c(106): error C3872: '0xa0': this character is not allowed in an identifier
+     1>c:\users\민지\documents\visual studio 2013\projects\minji\minji\mi.c(107): error C3872: '0xa0': this character is not allowed in an identifier
+     1>c:\users\민지\documents\visual studio 2013\projects\minji\minji\mi.c(111): error C3872: '0xa0': this character is not allowed in an identifier
+     1>c:\users\민지\documents\visual studio 2013\projects\minji\minji\mi.c(112): warning C4566: character represented by universal-character-name '\u00A0' cannot be represented in the current code page (949)
+     1>c:\users\민지\documents\visual studio 2013\projects\minji\minji\mi.c(114): error C3872: '0xa0': this character is not allowed in an identifier
+     1>c:\users\민지\documents\visual studio 2013\projects\minji\minji\mi.c(115): error C3872: '0xa0': this character is not allowed in an identifier
+     1>c:\users\민지\documents\visual studio 2013\projects\minji\minji\mi.c(116): error C3872: '0xa0': this character is not allowed in an identifier
+     1>c:\users\민지\documents\visual studio 2013\projects\minji\minji\mi.c(117): error C3872: '0xa0': this character is not allowed in an identifier
+     1>c:\users\민지\documents\visual studio 2013\projects\minji\minji\mi.c(119): error C3872: '0xa0': this character is not allowed in an identifier
+     1>c:\users\민지\documents\visual studio 2013\projects\minji\minji\mi.c(122): warning C4566: character represented by universal-character-name '\u00A0' cannot be represented in the current code page (949)
+     1>c:\users\민지\documents\visual studio 2013\projects\minji\minji\mi.c(123): error C3872: '0xa0': this character is not allowed in an identifier
+     1>c:\users\민지\documents\visual studio 2013\projects\minji\minji\mi.c(125): error C3872: '0xa0': this character is not allowed in an identifier
+     1>c:\users\민지\documents\visual studio 2013\projects\minji\minji\mi.c(126): error C3872: '0xa0': this character is not allowed in an identifier
+     1>c:\users\민지\documents\visual studio 2013\projects\minji\minji\mi.c(127): error C3872: '0xa0': this character is not allowed in an identifier
+     1>c:\users\민지\documents\visual studio 2013\projects\minji\minji\mi.c(128): error C3872: '0xa0': this character is not allowed in an identifier
+     1>c:\users\민지\documents\visual studio 2013\projects\minji\minji\mi.c(130): error C3872: '0xa0': this character is not allowed in an identifier
+     1>c:\users\민지\documents\visual studio 2013\projects\minji\minji\mi.c(133): warning C4566: character represented by universal-character-name '\u00A0' cannot be represented in the current code page (949)
+     1>c:\users\민지\documents\visual studio 2013\projects\minji\minji\mi.c(134): error C3872: '0xa0': this character is not allowed in an identifier
+     1>c:\users\민지\documents\visual studio 2013\projects\minji\minji\mi.c(136): error C3872: '0xa0': this character is not allowed in an identifier
+     1>c:\users\민지\documents\visual studio 2013\projects\minji\minji\mi.c(137): error C3872: '0xa0': this character is not allowed in an identifier
+     1>c:\users\민지\documents\visual studio 2013\projects\minji\minji\mi.c(138): error C3872: '0xa0': this character is not allowed in an identifier
+     1>c:\users\민지\documents\visual studio 2013\projects\minji\minji\mi.c(139): error C3872: '0xa0': this character is not allowed in an identifier
+     1>c:\users\민지\documents\visual studio 2013\projects\minji\minji\mi.c(141): error C3872: '0xa0': this character is not allowed in an identifier
+     1>c:\users\민지\documents\visual studio 2013\projects\minji\minji\mi.c(144): warning C4566: character represented by universal-character-name '\u00A0' cannot be represented in the current code page (949)
+     1>c:\users\민지\documents\visual studio 2013\projects\minji\minji\mi.c(145): error C3872: '0xa0': this character is not allowed in an identifier
+     1>c:\users\민지\documents\visual studio 2013\projects\minji\minji\mi.c(147): error C3872: '0xa0': this character is not allowed in an identifier
+     1>c:\users\민지\documents\visual studio 2013\projects\minji\minji\mi.c(148): error C3872: '0xa0': this character is not allowed in an identifier
+     1>c:\users\민지\documents\visual studio 2013\projects\minji\minji\mi.c(149): error C3872: '0xa0': this character is not allowed in an identifier
+     1>c:\users\민지\documents\visual studio 2013\projects\minji\minji\mi.c(150): error C3872: '0xa0': this character is not allowed in an identifier
+     1>c:\users\민지\documents\visual studio 2013\projects\minji\minji\mi.c(152): error C3872: '0xa0': this character is not allowed in an identifier
+     1>c:\users\민지\documents\visual studio 2013\projects\minji\minji\mi.c(155): warning C4566: character represented by universal-character-name '\u00A0' cannot be represented in the current code page (949)
+     1>c:\users\민지\documents\visual studio 2013\projects\minji\minji\mi.c(156): error C3872: '0xa0': this character is not allowed in an identifier
+     1>c:\users\민지\documents\visual studio 2013\projects\minji\minji\mi.c(158): error C3872: '0xa0': this character is not allowed in an identifier
+     1>c:\users\민지\documents\visual studio 2013\projects\minji\minji\mi.c(159): error C3872: '0xa0': this character is not allowed in an identifier
+     1>c:\users\민지\documents\visual studio 2013\projects\minji\minji\mi.c(159): fatal error C1003: error count exceeds 100; stopping compilation
+     1>Done Building Project "c:\Users\민지\documents\visual studio 2013\Projects\minji\minji\minji.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.31

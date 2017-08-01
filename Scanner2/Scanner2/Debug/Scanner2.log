@@ -1,0 +1,12 @@
+﻿Build started 2017-04-01 오후 5:50:10.
+     1>Project "c:\Users\민지\documents\visual studio 2013\Projects\Scanner2\Scanner2\Scanner2.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt Scanner2.c
+         Scanner2.c
+     1>c:\users\민지\documents\visual studio 2013\projects\scanner2\scanner2\scanner2.c(6): error C3872: '0xa0': this character is not allowed in an identifier
+     1>c:\users\민지\documents\visual studio 2013\projects\scanner2\scanner2\scanner2.c(6): fatal error C1021: invalid preprocessor command 'define NO_KEYWORDS 6'
+     1>Done Building Project "c:\Users\민지\documents\visual studio 2013\Projects\Scanner2\Scanner2\Scanner2.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.55

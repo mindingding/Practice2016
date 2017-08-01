@@ -1,0 +1,129 @@
+    array: x size: 10 type: int
+    function: minloc() return type: int 
+        array: a size: 0 type: int
+        scalar: low type: int
+        scalar: high type: int
+        Compound
+            scalar: i type: int
+            scalar: x type: int
+            scalar: k type: int
+            assign: 
+                Id: k
+                Id: low
+            assign: 
+                Id: x
+                Id: a
+                    Id: low
+            assign: 
+                Id: i
+                Op: +
+                    Id: low
+                    const: 1
+            While
+                Op: <
+                    Id: i
+                    Id: high
+                Compound
+                    If
+                        Op: <
+                            Id: a
+                                Id: i
+                            Id: x
+                        Compound
+                            assign: 
+                                Id: x
+                                Id: a
+                                    Id: i
+                            assign: 
+                                Id: k
+                                Id: i
+                    assign: 
+                        Id: i
+                        Op: +
+                            Id: i
+                            const: 1
+            Return
+                Id: k
+    function: sort() return type: void 
+        array: a size: 0 type: int
+        scalar: low type: int
+        scalar: high type: int
+        Compound
+            scalar: i type: int
+            scalar: k type: int
+            assign: 
+                Id: i
+                Id: low
+            While
+                Op: <
+                    Id: i
+                    Op: -
+                        Id: high
+                        const: 1
+                Compound
+                    scalar: t type: int
+                    assign: 
+                        Id: k
+                        Call minloc
+                            Id: a
+                            Id: i
+                            Id: high
+                            Id: i
+                    assign: 
+                        Id: t
+                        Id: a
+                            Id: k
+                    assign: 
+                        Id: a
+                            Id: k
+                        Id: a
+                            Id: i
+                    assign: 
+                        Id: a
+                            Id: i
+                        Id: t
+                    assign: 
+                        Id: i
+                        Op: +
+                            Id: i
+                            const: 1
+    function: main() return type: void 
+        Compound
+            scalar: i type: int
+            assign: 
+                Id: i
+                const: 0
+            While
+                Op: <
+                    Id: i
+                    const: 10
+                Compound
+                    assign: 
+                        Id: x
+                            Id: i
+                        Call input
+                    assign: 
+                        Id: i
+                        Op: +
+                            Id: i
+                            const: 1
+            Call sort
+                Id: x
+                const: 0
+                const: 10
+            assign: 
+                Id: i
+                const: 0
+            While
+                Op: <
+                    Id: i
+                    const: 10
+                Compound
+                    Call output
+                        Id: x
+                            Id: i
+                    assign: 
+                        Id: i
+                        Op: +
+                            Id: i
+                            const: 1

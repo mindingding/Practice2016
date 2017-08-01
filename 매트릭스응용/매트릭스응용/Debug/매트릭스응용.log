@@ -1,0 +1,20 @@
+﻿Build started 2017-04-10 오후 5:01:36.
+     1>Project "C:\Users\민지\documents\visual studio 2013\Projects\매트릭스응용\매트릭스응용\매트릭스응용.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt "매트릭스응용.c"
+         매트릭스응용.c
+     1>c:\users\민지\documents\visual studio 2013\projects\매트릭스응용\매트릭스응용\매트릭스응용.c(22): warning C4133: '=' : incompatible types - from 'int **' to 'char **'
+     1>c:\users\민지\documents\visual studio 2013\projects\매트릭스응용\매트릭스응용\매트릭스응용.c(25): warning C4133: '=' : incompatible types - from 'int *' to 'char *'
+     1>c:\users\민지\documents\visual studio 2013\projects\매트릭스응용\매트릭스응용\매트릭스응용.c(53): warning C4047: 'function' : 'const char *' differs in levels of indirection from 'char'
+     1>c:\users\민지\documents\visual studio 2013\projects\매트릭스응용\매트릭스응용\매트릭스응용.c(53): warning C4024: 'atoi' : different types for formal and actual parameter 1
+     1>c:\users\민지\documents\visual studio 2013\projects\매트릭스응용\매트릭스응용\매트릭스응용.c(55): warning C4047: 'function' : 'const char *' differs in levels of indirection from 'char'
+     1>c:\users\민지\documents\visual studio 2013\projects\매트릭스응용\매트릭스응용\매트릭스응용.c(55): warning C4024: 'atoi' : different types for formal and actual parameter 1
+     1>c:\users\민지\documents\visual studio 2013\projects\매트릭스응용\매트릭스응용\매트릭스응용.c(15): warning C4101: 't' : unreferenced local variable
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\민지\documents\visual studio 2013\Projects\매트릭스응용\Debug\매트릭스응용.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\민지\documents\visual studio 2013\Projects\매트릭스응용\Debug\매트릭스응용.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\민지\documents\visual studio 2013\Projects\매트릭스응용\Debug\매트릭스응용.lib" /MACHINE:X86 "Debug\매트릭스응용.obj"
+         매트릭스응용.vcxproj -> C:\Users\민지\documents\visual studio 2013\Projects\매트릭스응용\Debug\매트릭스응용.exe
+     1>Done Building Project "C:\Users\민지\documents\visual studio 2013\Projects\매트릭스응용\매트릭스응용\매트릭스응용.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.58
